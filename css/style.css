@@ -4,6 +4,7 @@
 box-sizing: border-box;
 }
 
+/*По БЭМ не разрешаеться использовать обращение по селекторам, только классы*/
 body{
 	margin: auto;
 	font-family: 'Roboto', sans-serif;
@@ -23,6 +24,7 @@ body{
 .slide__container{
 	display: inline-block;
 	width: 85.75%;
+	/* Обьединяй в одно св-во*/
 	margin-top: 109px;
 	margin-bottom: 100px;
 	margin-left: 7.875%;
@@ -65,6 +67,7 @@ header img{
 	height: 16px;
 	text-align: center;
 	font-size: 0;
+	/*Если указываешь единицы измерения пиксели то разрешины только целые числа*/
 	margin-top: 72.5px;
 	margin-bottom: 15px;
 	padding-left: 22px;
@@ -166,7 +169,7 @@ header img{
 
 .slide__select-n-size, .slide__select-n-qty{
 	display: inline-block;
-	width: 100;
+	width: 100; /* А в каких эдиницах задана ширина?*/
 	margin: 9px;
 	margin-bottom: 7px;
 }

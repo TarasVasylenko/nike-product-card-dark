@@ -12,9 +12,10 @@
 			<header><img src="img/logo.png"></header>
 
 				<div class="slide__item">
-					<img src="img/Nike-SB-Stefan-Janoski-Max.png">
+					<img src="img/Nike-SB-Stefan-Janoski-Max.png"> <!-- a где атрибут alt??? Он же обязательный! -->
 					<div class="slide__buttons">
-						<div class="slide__but dark"></div>
+						<div class="slide__but dark"></div> <!-- по БЭМ модификатор по другомму  и мы можем использовать только общепринятые сокращения button - btn-->
+						Так что классы для этого блока будут выглядеть так class="slide__btn btn--white" где btn--white модификатор -->
 						<div class="slide__but white"></div>
 						<div class="slide__but red"></div>
 						<div class="slide__but blue"></div>
@@ -41,6 +42,7 @@
 						</div>
 					</div>
 
+					<!-- элементы формы в БЭМ - это блоки -->
 					<button class="slide__but-add" type="submit">Add to cart</button>
 
 				</div>
